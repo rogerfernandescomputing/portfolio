@@ -1,0 +1,128 @@
+@keyframes animation_gradient{
+   0%{
+    background-position: 0 50%;
+   }    
+   50%{
+    background-position: 100% 50%;
+   }    
+   100%{
+    background-position: 0 50%;
+   }
+}
+.text_name{
+    margin-top: 50px;
+    font-size: 2em;
+}
+.text_work{
+    font-size: 1.5em;
+}
+.icons{
+    margin: 8px;
+}
+.container_right_perfil{
+    background: linear-gradient(-45deg, #00BFFF, #4B0082, #23a6d5, #23d5ab) no-repeat;
+    background-size: 300% 300%;
+    animation: animation_gradient 10s ease infinite;
+
+}
+.col_text{
+    font-size: 1.2em;
+}
+.js-animation{
+    margin-top: 200px;
+    margin-left: 100px;
+    position: absolute;
+    animation: animation_icon_perfil 3s infinite;
+}
+.bootstrap-animation{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 300px;
+    animation: animation_icon_perfil2 3s infinite;
+}
+.container_sobre{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80%;
+}
+.list-group-item{
+    border: none;
+    margin-top: 10px;
+    background: none;
+}
+.link-diploma{
+    text-decoration: none;
+    
+}
+.card-title{
+    font-size: 1em;
+}
+.apresentacao-2{
+    margin-top: 5%;
+    height: 500px;
+    background-image: url("../_assets/_images/apresentacao-2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.text_apresentacao-2{
+    font-size: 2em;
+}
+.col_card_diploma{
+    width: 20%;
+    height: 20%;
+}
+.img_photo {
+    z-index: 1;
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: backInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2.5s; /* don't forget to set a duration! */
+    margin-top: 50px;
+}
+.card_capacitacao{
+    background:#F7F7FD;
+}
+.card_diplomas{
+    background:#F7F7FD;
+}
+.card_body_header{
+    background:#F7F7FD;
+}
+.card_webdesigner {
+  
+    animation: backInRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1.5s; /* don't forget to set a duration! */
+}
+.card_programacao {
+  
+    animation: backInRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2.5s; /* don't forget to set a duration! */
+}
+.card_SO {
+  
+    animation: backInRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3.5s; /* don't forget to set a duration! */
+}
+.card_engenharia {
+  
+    animation: backInRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 4.5s; /* don't forget to set a duration! */
+}
+.container_sobre {
+    background-color: #fff;
+    animation: backInRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+.btn {
+  
+    animation: pulse infinite; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+}
+.icons:hover {
+  
+    animation: heartBeat; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    cursor: pointer;
+}
